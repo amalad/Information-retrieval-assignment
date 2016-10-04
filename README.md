@@ -2,10 +2,7 @@
 Documentation
 
 Project By: 
-Amala Deshmukh
-Bhargav Kanuparthi
-Naman Bajaj
-Tanmaya Shekhar Dabral
+Amala Deshmukh, Bhargav Kanuparthi, Naman Bajaj, Tanmaya Shekhar Dabral
 
 Introduction: The search-engine developed uses a modified form of the classic TF-IDF model. It was trained on the Cranfield dataset, which is a collection of abstracts of paper on aerodynamics and fluid dynamics. To run it, one must have the libraries “datrie” and “nltk”, which can be easily pip-installed. To run, the shell3.2.py must be run from the same directory. The *.data files included have the various indexes stored in them, serialized via python pickling. The program comes with a simple command line interface, which prompts the user as required. “Exit” command exits the program. The scripts used and intermediate data has also been provided.
 ****************************************************************
