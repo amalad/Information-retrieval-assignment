@@ -1,10 +1,12 @@
 # Information-retrieval-assignment
 Documentation
+
 Project By: 
 Amala Deshmukh
 Bhargav Kanuparthi
 Naman Bajaj
 Tanmaya Shekhar Dabral
+
 Introduction: The search-engine developed uses a modified form of the classic TF-IDF model. It was trained on the Cranfield dataset, which is a collection of abstracts of paper on aerodynamics and fluid dynamics. To run it, one must have the libraries “datrie” and “nltk”, which can be easily pip-installed. To run, the shell3.2.py must be run from the same directory. The *.data files included have the various indexes stored in them, serialized via python pickling. The program comes with a simple command line interface, which prompts the user as required. “Exit” command exits the program. The scripts used and intermediate data has also been provided.
 ****************************************************************
 Processing of files: First the documents were tokenized using the nltk.word_tokenize() function to obtain a list of words for each document along with the term frequency. A filter was then applied to this list to remove all the punctuation marks. The words were then stripped of apostrophes and forward slashes as it was observed that they occurred frequently in the documents. Hyphenated words were dealt with separately as follows: Each hyphenated word was split into its components and each component was individually stored. The original word was also stored after removing the hyphens. The commas were removed from words given by the following regular expression [0-9]*,[0-9]*.  For abbreviations like m.i.t, the word was split and stored using ‘.’ as the delimiter along with the entire abbreviation. This was done to ensure if the surname of the author was given it would retrieve all the articles written by that person. 
@@ -23,5 +25,3 @@ Wildcard queries: The wildcard queries are handled by forming a Trie, which prov
 1)	Allow only one wildcard per query
 2)	If the total new queries (by taking each term returned by the trie) is less than some threshold, we run every query and merge the final lists.
 3)	Else, we add all the terms to one query and search for it. (This might give less accurate results)
-
-
