@@ -1,0 +1,16 @@
+
+control system and analysis and design via the second method of
+lyapunov .
+
+kalman, r. e. and bertram, j. e.
+
+thesecond methodof lyapunov is the most general approach currently in
+the theory of stability of dynamic systems . after a rigorous exposition
+ of the fundamental concepts of this theory, applications are made toa
+stability of linear stationary, linear nonslationary, and nonlinear
+systems,.bestimation of transient behavior,.ccontrol-system
+optimization,.ddesign of relay servos . the discussion is essentially
+self-contained, with emphasis on the thorough development of the
+principal ideas and mathematical tools . only systems governed by
+differential equations are treated here . systems governed by difference
+equations are the subject of a companion paper .
