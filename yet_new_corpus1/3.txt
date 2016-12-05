@@ -1,0 +1,7 @@
+
+the boundary layer in simple shear flow past a flat plate .
+
+m. b. glauert
+
+the boundary-layer equations are presented for steady
+incompressible flow with no pressure gradient .
